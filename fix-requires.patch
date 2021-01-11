@@ -1,0 +1,13 @@
+diff --git a/setup.py b/setup.py
+index ce12437..3b136ac 100644
+--- a/setup.py
++++ b/setup.py
+@@ -5,7 +5,7 @@ setup(
+     name='cli2',
+     version='2.3.1',
+     setup_requires='setupmeta',
+-    install_requires=['docstring_parser==0.7.1'],
++    install_requires=['docstring_parser>=0.7.1'],
+     extras_require=dict(
+         test=[
+             'freezegun',

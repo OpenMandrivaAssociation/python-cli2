@@ -9,6 +9,7 @@ Group:          Development/Python
 License:        MIT
 URL:            https://yourlabs.io/oss/cli2
 Source0:        %{pypi_name}-%{version}.tar.gz
+Patch0:         fix-requires.patch
 BuildArch:      noarch
 
 BuildRequires:  python3-devel
